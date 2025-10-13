@@ -62,5 +62,18 @@ Arquivo: `index.ts`
 - `npm run build` -> executa `tsc` e gera em `/dist` o arquivo JavaScript
 - `npm start` → roda versão compilada em `dist/index.js`
 
----
-Boas construções! 🔺
+## 👨‍💻 Autor
+
+<div align="center">
+  <img src="https://github.com/marquesmaycon.png" width="100px" style="border-radius: 50%"/>
+  <br/>
+  <strong>Maycon Marques</strong>
+  <br/>
+  <br/>
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayconhenrique/)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/marquesmaycon)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mayconmarquesh@gmail.com)
+
+  ### Feito com ❤️ e muita 🎵
+</div>
