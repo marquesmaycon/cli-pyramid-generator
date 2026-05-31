@@ -1,68 +1,60 @@
-# Pyramid Generator
+# CLI Pyramid Generator
 
-Gerador interativo de pirâmides escrito em TypeScript/Node.js. Permite:
-- Definir a altura
-- Definir o caractere usado no desenho
-- Escolher quantidade (1, 2 ou 3) de pirâmides
-- Inverter (desenhar de cima para baixo)
-- Quando 2 ou 3 piramides são exibidas, a primeira será invisível
+CLI em TypeScript para gerar piramides no terminal, criada para praticar logica, entrada de dados e ferramentas de linha de comando.
 
-## 🔧 Requisitos
-- Node.js >= 18
-- npm (ou yarn)
+![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=flat-square)
+![Node.js](https://img.shields.io/badge/Nodejs-20232A?style=flat-square)
+![CLI](https://img.shields.io/badge/CLI-20232A?style=flat-square)
 
-## ▶️ Como rodar (arquivo TypeScript)
-Instale dependências e execute em modo interativo via `ts-node`:
+## Demo
 
-```powershell
+Este projeto nao possui demo publica ativa no momento.
+
+## Sobre
+
+CLI em TypeScript para gerar piramides no terminal, criada para praticar logica, entrada de dados e ferramentas de linha de comando.
+
+O objetivo deste repositorio e demonstrar uma implementacao clara, organizada e facil de avaliar, com documentacao objetiva para recrutadores e pessoas tecnicas entenderem rapidamente o contexto do projeto.
+
+## Funcionalidades
+
+- Execucao via terminal.
+- Geracao de piramides.
+- Build com TypeScript.
+- Script de desenvolvimento.
+
+## Stack
+
+- **TypeScript**
+- **Node.js**
+- **CLI**
+
+## Como executar
+
+```bash
+git clone https://github.com/marquesmaycon/cli-pyramid-generator.git
+cd cli-pyramid-generator
 npm install
 npm run dev
 ```
 
-## 🚀 Build + execução (arquivo JavaScript)
-Compilar para JavaScript e rodar a versão gerada em `dist/`:
+## Scripts disponiveis
 
-```powershell
-npm run build
-npm start
-```
+- `npm run start`
+- `npm run dev`
+- `npm run build`
 
-## 💡 Uso (fluxo interativo)
-Ao executar, você responderá às perguntas:
-```
-Escolha a altura da(s) pirâmide(s): 5
-Escolha o caractere para desenhar: #
-Escolha a quantidade de pirâmides (1, 2 ou 3)? 3
-A pirâmide será invertida? (s/n): n
-```
-Saída (exemplo simplificado):
-```
-    2
-   222
-  22222 
- 2222222 
-222222222 
-Total de linhas desenhadas: ...
-Total de caracteres desenhados: ...
-```
+## Destaques tecnicos
 
-## 📄 Documentação da lógica principal
-Arquivo: `index.ts`
+- Projeto pequeno, mas bom para demonstrar fundamentos.
+- Foco em logica e CLI.
+- Codigo simples de entender.
 
-1. Interface de leitura: usa `readline` para perguntar dados ao usuário.
-2. Função `visiblePyramids(count: number)` retorna um array de flags booleanas que define quais "posições" são realmente desenhadas:
-3. Cada linha:
-   - `lineIndex` depende se está invertida ou não.
-   - `width = (height - lineIndex) * 2 - 1` (clássica largura de pirâmide cheia).
-   - Repete o caractere (`chars`) ou espaços (`blanks`).
-4. Junção: cada "pilar" recebe a mesma indentação.
+## Repositorio
 
-## 📦 Scripts disponíveis
-- `npm run dev` → executa `ts-node index.ts`
-- `npm run build` -> executa `tsc` e gera em `/dist` o arquivo JavaScript
-- `npm start` → roda versão compilada em `dist/index.js`
+[Acessar repositorio no GitHub](https://github.com/marquesmaycon/cli-pyramid-generator)
 
-## 👨‍💻 Autor
+---
 
 <div align="center">
   <img src="https://github.com/marquesmaycon.png" width="100px" style="border-radius: 50%"/>
@@ -70,10 +62,8 @@ Arquivo: `index.ts`
   <strong>Maycon Marques</strong>
   <br/>
   <br/>
-  
+
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayconhenrique/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/marquesmaycon)
   [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mayconmarquesh@gmail.com)
-
-  ### Feito com ❤️ e muita 🎵
 </div>
